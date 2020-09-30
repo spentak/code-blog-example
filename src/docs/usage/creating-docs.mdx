@@ -17,8 +17,8 @@ Inside all docs files, you can define the following options:
 
 ```mdx
 ---
-title: 'My Example'
-description: 'A simple description for this page'
+title: "My Example"
+description: "A simple description for this page"
 image: /banner.jpeg
 disableTableOfContents: false
 ---
@@ -44,7 +44,7 @@ To show a title, just add it to your code block. Ex: `title=src/myfile.css`
 
 ```css title=src/myfile.css
 .gatsby::before {
-  content: 'niceee...';
+  content: "niceee...";
 }
 ```
 
@@ -54,7 +54,7 @@ To add line numbers for that code block, pass an option `lineNumbers=true`.
 
 ```js lineNumbers=true
 const rocket = {
-  launch: () => console.log('Launching...'),
+  launch: () => console.log("Launching..."),
 };
 
 rocket.launch();
@@ -70,7 +70,7 @@ To use it, just add a `live=true` option to your code block.
 ```jsx lineNumbers=true title=gatsby-config.js live=true
 function MyComponent() {
   function handleButtonClick() {
-    alert('wowww');
+    alert("wowww");
   }
 
   return <button onClick={handleButtonClick}>Hey, click me!</button>;
@@ -89,7 +89,7 @@ For example `highlight={1-4,6-7,9}` on the code below would result in:
 ```jsx highlight={1-4,6-7,9}
 function MyComponent() {
   function handleButtonClick() {
-    alert('wowww');
+    alert("wowww");
   }
 
   return <button onClick={handleButtonClick}>Hey, click me!</button>;
